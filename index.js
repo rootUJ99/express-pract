@@ -53,6 +53,13 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/portfolio',(req, res)=>{
+    res.render('portfolio.hbs',{
+        pagetitle:'portfolio page',
+        porttext:'So this is my portfolio'
+    });
+});
+
 
 app.get('/bad', (req, res) => {
   res.send({ error: 'unable to load page'
