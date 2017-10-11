@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1sudo ln -sf /usr/local/n/versions/node/6.0.0/bin/node /usr/bin/node ",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "check-node-version": "^2.1.0",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.10",
+    "hbs": "^4.0.1"
   }
 }
